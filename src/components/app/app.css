@@ -1,0 +1,44 @@
+.background {
+  background-color: #f7f7f7;
+}
+.card-list {
+  background-color: white;
+  width: 1045px;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 35px;
+}
+
+.ant-tabs-nav {
+  margin-bottom: 20px !important;
+}
+.ant-input {
+  width: 975px !important;
+  margin-left: 35px !important;
+  margin-bottom: 20px !important;
+}
+
+@media screen and (max-width: 420px) {
+  .card-list {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .card-wrapper {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0;
+  }
+  .ant-input {
+    width: 388px !important;
+    margin-left: 0 !important;
+    margin-bottom: 10px !important;
+  }
+}
