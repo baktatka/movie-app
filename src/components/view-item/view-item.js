@@ -20,7 +20,8 @@ const ViewItem = ({ movie, setRating }) => {
           <img
             className="card-img"
             src={viewImage(movie.poster_path)}
-            alt="title"
+            alt={movie.title}
+            title={movie.title}
           />
           <div className="card-content">
             <div className="horizontal">
