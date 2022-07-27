@@ -122,7 +122,6 @@ function App() {
                     current={currentPage}
                     onChange={(page) => nextPage(page)}
                     showSizeChanger={false}
-                    style={{ marginTop: 36 }}
                   />
                 )}
               </Row>

@@ -24,6 +24,12 @@
   margin-bottom: 20px !important;
 }
 
+.ant-pagination,
+.ant-pagination ol,
+.ant-pagination ul {
+  margin-bottom: 10px !important;
+}
+
 @media screen and (max-width: 420px) {
   .card-list {
     width: 100%;
